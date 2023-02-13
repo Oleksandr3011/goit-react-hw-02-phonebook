@@ -1,0 +1,22 @@
+.filter{
+    display: block;
+   
+
+    &__input {
+            font-size: 18px;
+            outline: none;
+            display: block;
+            padding: 8px;
+    
+            &:not(:last-child) {
+                margin-bottom: 15px;
+            }
+    
+        }
+    &__label{
+      
+        font-size: 18px;
+            font-weight: 500;
+            color: black;
+    }
+}
